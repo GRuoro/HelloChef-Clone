@@ -1,0 +1,367 @@
+@media only screen and (max-width:768px){
+    .navbar{
+        justify-content: center;
+        height: 10vh;
+    }
+    .navbar ul{
+        display: none;
+    }
+
+    .logo img{
+        margin: 0;
+    }
+
+    .hero{
+        height: 100vh;
+        
+    }
+
+    .hero h1{
+        width: 100%;
+        font-size: 36px;
+        margin: 80px 0 20px;
+        color: #4a4948;
+    }
+
+    .hero p{
+        width: 100%;
+        color: #43403f;
+    }
+
+    .hero button{
+        margin-top: 60px;
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+
+    .about{
+        width: 100%;
+        padding: 0;
+        height: 150vh;
+    }
+
+    .about p{
+        margin-top: 20px;
+    }
+
+    .reason{
+        flex-direction: column;
+        margin: 30px 0 50vh 0;
+    }
+
+    .convenience, .variety, .deliciousness{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 5% 20px 5%;
+    }
+
+    .convenience img,
+    .variety img,
+    .deliciousness img {
+        width: 100%;
+        height:fit-content;
+        margin-bottom: 10px;
+    }
+
+    .convenience p,
+    .variety p,
+    .deliciousness p{
+        margin:0;
+        width: 100%;
+    }
+
+    .steps{
+        margin-top: 105vh;
+        height: 110vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .user, .procedure{
+        width: 100%;
+    }
+
+    .instructions{
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+    }
+
+    .instructions h3{
+        width: 90%;
+        margin: 50px 5% 10px 5%;
+        text-align: center;
+    }
+
+    .instructions p{
+        width: 90%;
+        margin: 25px 5%;
+        text-align: left;
+    }
+
+    .instructions button{
+        margin-top: 10px;
+        padding: 10px 10px;
+        font-size: 12px;
+        margin-left: 35%;
+    }
+
+    .slider{
+        height: 140vh;
+        width: 100%;
+        padding: 0;
+        margin: left;
+    }
+
+    .recipe{
+        width: 100%;
+        padding: 0 0;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .recipe h3{
+        font-size: 22px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .recipe p{
+        width: 90%;
+        font-size: 16px;
+        margin: 0 5%;
+        text-align: center;
+    }
+
+    .first{
+        flex-direction: column;
+        width: 90%;
+        padding: 0;
+        margin-left: 5%;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .vegan, .classic, .vegetarian{
+    width: 90%;
+    margin: 10px 5%;
+    }
+
+    .vegan p, .classic p, .vegetarian p{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: fit-content;
+    padding: 5px 10px;
+    background:#1a1a1a;
+    border-radius: 20px;
+    margin: 0;
+    font-size: 14px;
+    }
+
+    .vegan p{
+    background-color: #d8f4a4;
+    color: #78a42b;
+    }
+
+    .classic{
+    background-image: url('../images/Chefschoice.webp');
+    position: relative;
+    background-size: cover;
+    }
+
+    .classic p{
+    background-color: #d9e3fe;
+    color: #647ad0;
+    }
+
+    .recipe button{
+    width: 35%;
+    margin-top: 30px;
+    margin-left: 30%;
+    padding: 12px 20px;
+    font-size: 12px;
+    }
+
+    .review{
+        width: 100%;
+        height: 50vh;
+        padding: 0;
+    }
+
+    .title{
+        width: 90%;
+        margin-left: 5%;
+        padding: 20px 0 0 0;
+        font-size: 30px;
+    }
+
+    .feedback{
+        display: block;
+        margin-top: -300px;
+        height: fit-content;
+    }
+
+    .feedback img{
+        width: 18.5%;
+        height: auto;
+        margin: 30px 10px 0px 10px;
+    }
+
+    .speech{
+        width: 100%;
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .rating{
+        margin: 20px 5% 50px;
+    }
+
+    .subscribe{
+        height: 100vh;
+    }
+
+    .form{
+        width: 95%;
+        margin: 5vh 2.5%;
+    }
+
+    .form h4{
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .form p{
+        width: 100%;
+        font-size: 16px;
+        margin: 10px 0 20px 0;
+    }
+
+    .form .email{
+        width: 95%;
+        margin: 0 2.5% ;
+    }
+
+    .form input{
+        width: 30%;
+    }
+
+    .description{
+        bottom: 1;
+        width: 100%;
+        left: 0;
+        color: #3a3a3a;
+        font-weight: 500;
+    }
+
+    .contact{
+        height: 140vh;
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact header{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .one{
+        flex-direction: column;
+    }
+
+    .company{
+        width: 90%;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+
+    .aboutus, .moreinfo{
+        width: 50%;
+        margin: 0;
+    }
+
+    .channels{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .blog, .phone{
+        width: 50%;
+        margin: 0;
+    }
+
+    .blog{
+        margin: 0;
+    }
+
+    .blog img{
+        margin-left: 0;
+    }
+
+    .two{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .subscribe1{
+        width: 100%;
+        margin-left: 25px;
+    }
+
+    .subscribe1 h5{
+        text-align: center;
+    }
+
+    .subscribe1 .email input{
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .subscribe1 .email button{
+        margin-left: 100px;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .review1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .review1 .rating{
+        margin-left: 0;
+    }
+
+    .social{
+        width: 100%;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .social .brand{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .chat .icon{
+        right: 50px;
+        bottom: 50px;
+    }
+
+    .chat .notification{
+        bottom: 80px;
+        right: 40px;
+    }
+
+}

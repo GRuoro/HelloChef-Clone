@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family:Helvetica, Arial, Sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.logo img{
+    height: 60px;
+    margin-left: 20%;
+}
+
+ul{
+    margin-right: 50px;
+}
+
+.menuitem{
+    display: inline;
+    margin: 15px;
+}
+
+.menuitem a{
+    text-decoration: none;
+    color: #8b8b8b;
+}
+
+.signin a{
+    padding: 20px 30px;
+    background-color: #e5331c;
+    border-radius: 10px;
+    color: #fdf0ee;
+}
+
+.hero{
+    background-image: url(../images/banner.webp);
+    background-size: cover;
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+    font-size: 36px;
+    width: 30%;
+    text-align: center;
+    margin: 150px 0 20px 0;
+    color: #484848;
+}
+
+.hero p{
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+    color: #a3a09e;
+}
+
+.hero button{
+    border: none;
+    margin-top: 30px;
+    padding: 17px 45px;
+    background-color: #e5331c;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #fce5e3;
+    letter-spacing: 1px;
+}
+
+.about{
+    background-color: #fafafa;
+    line-height: 30px;
+    padding: 0 10%;
+    height: 98vh;
+}
+
+.about h2,p{
+    text-align: center;
+}
+
+.about h2{
+    font-size: 36px;
+    padding-top: 10vh;
+    color: #484848;
+}
+
+.about p{
+    padding-top: 10px;
+    color: #afafaf;
+}
+
+.reason{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin-top: 50px;
+    color: #797979;
+}
+
+.reason h3{
+    color: #484848;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.convenience img, .variety img, .deliciousness img{
+    width: 330px;
+    height: 180px;
+    border-radius: 10px;
+}
+.convenience, .variety, .deliciousness{
+    margin: 5px;
+    flex: 1;
+    display: block;
+    width: 30%;
+    align-items: flex-start;
+}
+
+.convenience li, .variety li, .deliciousness li {
+    margin-left: 15px;
+    color: #1a1a1a;
+    font-weight: 400;
+}
+
+.steps{
+    display: flex;
+    height: 95vh;
+    width: 100%;
+    background: #fbe6de;
+}
+
+.user, .procedure{
+    flex: 1;
+    width: 50%;
+}
+
+.user img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.instructions{
+    width: 75%;
+    height: 50%;
+    margin: 17% 10%;
+    
+}
+
+.instructions h3{
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 600;
+    color:#e5331c;
+}
+
+.instructions p{
+    font-size: 16px;
+    margin: 15px 0 40px 0;
+    text-align: left;
+    color: #1a1a1a;
+}
+
+.instructions li{
+    margin: 20px 0 0 15px;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 20px;
+    color:#1a1a1a;
+}
+
+.instructions button{
+    border: none;
+    margin-top: 50px;
+    padding: 20px 30px;
+    background-color: #e5331c;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #fce5e3;
+    letter-spacing: 1px;
+    font-weight: 500;
+}

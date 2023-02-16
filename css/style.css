@@ -1,0 +1,658 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    /* font-family: Poppins, Helvetica, Arial, Sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* PAGE 1 */
+.navbar{
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.logo img{
+    height: 60px;
+    margin-left: 20%;
+}
+
+ul{
+    margin-right: 50px;
+}
+
+.menuitem{
+    display: inline;
+    margin: 15px;
+}
+
+.menuitem a{
+    text-decoration: none;
+    color: #8b8b8b;
+}
+
+.menuitem a:hover{
+    color: gray;
+}
+
+.signin a{
+    padding: 20px 30px;
+    background-color: #e5331c;
+    border-radius: 10px;
+    color: #fdf0ee;
+}
+
+.hero{
+    background-image: url(../images/banner.webp);
+    background-size: cover;
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+    font-size: 36px;
+    width: 30%;
+    text-align: center;
+    margin: 150px 0 20px 0;
+    color: #484848;
+}
+
+.hero p{
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+    color: #a3a09e;
+}
+
+.hero button{
+    border: none;
+    margin-top: 30px;
+    padding: 17px 45px;
+    background-color: #e5331c;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #fce5e3;
+    letter-spacing: 1px;
+}
+
+/* PAGE 2 */
+
+.about{
+    background-color: #fafafa;
+    line-height: 30px;
+    padding: 0 10%;
+    height: 98vh;
+}
+
+.about h2,p{
+    text-align: center;
+}
+
+.about h2{
+    font-size: 36px;
+    padding-top: 10vh;
+    color: #484848;
+}
+
+.about p{
+    padding-top: 10px;
+    color: #afafaf;
+}
+
+.reason{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin-top: 50px;
+    color: #797979;
+}
+
+.reason h3{
+    color: #484848;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.convenience img, .variety img, .deliciousness img{
+    width: 330px;
+    height: 180px;
+    border-radius: 10px;
+}
+.convenience, .variety, .deliciousness{
+    margin: 5px;
+    flex: 1;
+    display: block;
+    width: 30%;
+}
+
+.convenience p, .variety p, .deliciousness p {
+    display: flex;
+    text-align: left;
+    color: #1a1a1a;
+    font-weight: 400;
+}
+
+.check{
+    color: green;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+/* PAGE 3 */
+
+.steps{
+    display: flex;
+    height: 95vh;
+    width: 100%;
+    background: #fbe6de;
+}
+
+.user, .procedure{
+    flex: 1;
+    width: 50%;
+}
+
+.user img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.instructions{
+    width: 75%;
+    height: 50%;
+    margin: 17% 10%;
+    
+}
+
+.instructions h3{
+    margin: 120px 40px 10px 40px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color:#e5331c;
+}
+
+.instructions p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 35px 40px ;
+    text-align: left;
+    color: #1a1a1a;
+}
+
+.instructions {
+    margin: 20px 0 px;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 20px;
+    color:#1a1a1a;
+}
+
+.instructions .list{
+    font-weight: 600;
+}
+
+.numbers {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #ff946e;
+    margin-right: 10px;
+}
+
+.instructions button{
+    border: none;
+    margin-top: 50px;
+    padding: 20px 30px;
+    background-color: #e5331c;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #fce5e3;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/* PAGE 4 */
+
+.slider{
+    padding: 0 20px;
+}
+
+.recipe{
+    padding: 0 10%;
+    margin-top: 50px;
+}
+
+.recipe h3,p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.recipe h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #484848;
+}
+
+.recipe p{
+    width: 80%;
+    font-size: 18px;
+    margin: 5px 10%;
+    color:#797979;
+}
+
+.first{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+}
+
+.arrow{
+    display: flex;
+    height: 35px;
+    width: 35px;
+    border: 2px solid #ff946e;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow i{
+   font-size: 40px;
+   color: #ff946e;
+}
+
+.arrow:hover{
+    background-color: #fe7644;
+}
+
+.arrow:hover i{
+    color: #c8f5da;
+}
+
+.vegan, .classic, .vegetarian{
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.vegan p, .classic p, .vegetarian p{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: fit-content;
+    padding: 5px 10px;
+    background:#1a1a1a;
+    border-radius: 20px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.vegan{
+    background-image: url(../images/vegan.webp);
+    position: relative;
+    background-size: cover;
+}
+
+.vegan p{
+    background-color: #d8f4a4;
+    color: #78a42b;
+}
+
+.classic{
+    background-image: url('../images/Chefschoice.webp');
+    position: relative;
+    background-size: cover;
+}
+
+.classic p{
+    background-color: #d9e3fe;
+    color: #647ad0;
+}
+
+.vegetarian{
+    background-image: url('../images/Vegetarian.webp');
+    position: relative;
+    background-size: cover;
+}
+
+.vegetarian p{
+    background-color: #c8f5da;
+    color: #4ab074;
+}
+
+.recipe button{
+    border: none;
+    margin: 20px 40% 100px;
+    padding: 17px 30px;
+    background-color: #e5331c;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #fce5e3;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+/* PAGE 5 */
+
+.review{
+    background-color: #f3f4f6;
+    padding: 0 5%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 36px;
+    text-decoration: underline;
+    font-weight: 500;
+    color: #484848;
+}
+
+.title img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+}
+
+.feedback img{
+    width: 18%;
+    height: 3%;
+    margin: 50px 10px;
+}
+
+.speech{
+    font-size: 28px;
+    color: #484848;
+    font-weight: 300;
+    padding-bottom: 3%;
+}
+
+.speech span{
+    color: #e5331c;
+}
+
+.rating{
+    font-size: 16px;
+    text-align: left;
+    margin: 10px 35% 50px;
+}
+
+.rating i{
+    color: orange;
+}
+
+.rating .stats{
+    display: inline;
+    color: #484848;
+    position: relative;
+}
+
+.rating img {
+    height: 26px;
+    width: 76px;
+    margin: 0 5px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PAGE 6 */
+
+.subscribe{
+    background-image: url('../images/subscribe.webp');
+    background-size: cover;
+    height: 98vh;
+    width: 100%;
+    position: relative;
+}
+
+.form{
+    position: absolute;
+    margin: 20vh 20vw;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.form h4{
+    font-size: 36px;
+    color: #1a1a1a;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form p{
+    color: #484848;
+    font-size: 18px;
+    margin: 20px 20px 30px 20px;
+}
+
+.form .email{
+    position: relative;
+    display: block;
+    margin-left: 20vw;
+    color: #8b8b8b;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.form input{
+    display: inline-block;
+    width: 30%;
+    padding: 15px 100px 15px 16px;
+    border: 1px solid #e9e9e9;
+    margin-right: -5px;
+}
+
+.email button{
+    border: none;
+    opacity: 1;
+    padding: 15px 20px 15px 16px;
+    width: fit-content;
+    background-color: #e5331c;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    color: #fce5e3;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.description{
+    position: absolute;
+    bottom: 100px;
+    left:200px;
+    font-size: 14px;
+    width: 65vw;
+    text-align: center;
+    color: #757575;
+}
+
+/* PAGE 7 */
+
+.contact{
+    background-color: #f3f4f6;
+    padding: 0 10vw;
+    color: #a3a09e;
+}
+
+.contact header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 30px 0 30px;
+}
+
+.contact img{
+    width: 250px;
+    height: 75px;
+}
+
+.contact h5{
+    color:#484848;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.one{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.company{
+    display: flex;
+    width: 50%;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.moreinfo{
+    margin-right: 25%;
+
+}
+
+.blog{
+    margin-right: 20%;
+    position: relative;
+}
+
+.blog img{
+    width: 50%;
+    display: block;
+    margin-left: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.channels{
+    display: flex;
+    width: 50%;
+    text-align: right;
+}
+
+.two{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.subscribe1{
+    display: block;
+    width: 40%;
+    font-size: 14px;
+}
+
+.subscribe1 .email input{
+    display: inline-block;
+    width: 30%;
+    padding: 16px 200px 16px 5px;
+    border: 1px solid #e9e9e9;
+    margin-right: -5px;
+}
+
+.subscribe1 .email button {
+    border: none;
+    opacity: 1;
+    padding: 15px 10px 15px 10px;
+    width: fit-content;
+    background-color: #e5331c;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    color: #fce5e3;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.review1{
+    width: 30%;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.review1 .rating{
+    display: inline;
+    width: max-content;
+    font-size: 16px;  
+    margin-left: 60%;
+}
+
+.review1 .rating i{
+    font-size: 24px;
+}
+
+.review1 img{
+    width: 55px;
+    height: 35px;
+    margin-top: 0px;
+}
+
+.social{
+    width: 20%;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.social .brand{
+    font-size: 32px;
+    padding: 10px;
+}
+
+.chat{
+    position: relative;
+    z-index: 1;
+}
+.chat .icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #e5331c;
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.chat .notification{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #e5331c;
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+}
